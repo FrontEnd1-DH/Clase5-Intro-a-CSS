@@ -1,0 +1,43 @@
+body{
+	width: 1440px;
+	margin: auto;
+}
+
+header{
+	height: 188.19px;
+	background: #E6E6E6;
+}
+
+.batman{
+	margin: 20.91px 0 0 670px;
+}
+
+.seccion{
+	/*Fondo*/
+	background: #C4C4C4;
+
+}
+
+.seccion-encabezado{
+	/*Tamaño y posicion*/
+	height: 60px;
+}
+
+h1{
+	/*Posición del titulo*/
+	margin: auto;
+    padding: 1rem;
+
+    /*Estilo letra titulo*/
+    color: #005677;
+    text-align: center;
+    text-transform: uppercase;/*texto en mayuscula*/
+    letter-spacing: 8px;/*Espacio entre letras*/
+    word-spacing: 10px;/*Espacio entre palabras*/
+}
+
+footer{
+	background: #005677;
+	height: 100px;
+}
+
