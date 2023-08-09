@@ -3,6 +3,8 @@ body{
 	margin: auto;
 }
 
+/*Estilos del Header*/
+
 header{
 	height: 188.19px;
 	background: #E6E6E6;
@@ -12,18 +14,14 @@ header{
 	margin: 20.91px 0 0 670px;
 }
 
-.seccion{
-	/*Fondo*/
-	background: #C4C4C4;
+/*seccion de encabezado*/
 
-}
-
-.seccion-encabezado{
+.encabezado{
 	/*Tamaño y posicion*/
 	height: 60px;
 }
 
-h1{
+.titulo-principal{
 	/*Posición del titulo*/
 	margin: auto;
     padding: 1rem;
@@ -36,8 +34,80 @@ h1{
     word-spacing: 10px;/*Espacio entre palabras*/
 }
 
+
+/*Estilos de secciones */
+
+.seccion-header{
+	/*Tamaño*/
+	height: auto;
+
+	/*Fondo*/
+	background: #C4C4C4;	
+}
+
+.seccion-titulo{
+	/*Tamaño */
+	height: 30px;
+
+	/*posicion*/
+	padding-left: 12.45px;
+
+	/*Letra*/
+	font-family: Times New Roman;
+	font-size: 20px;
+	font-weight: 700;
+	color: #005677;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	line-height: 30px;
+}
+
+.seccion-datosPersonales{
+	margin-top: 188px;
+}
+
+.seccion-formacion{
+    margin-top: 46px;
+}
+
+.seccion-experiencia{
+	margin-top: 69px;
+}
+
+.seccion-texto{
+	/*letra*/
+	font-size: 15px;
+	line-height: 25px;
+
+}
+
+.seccion-texto strong{
+	font-style: italic;
+}
+
+/* Footer*/
+
 footer{
+	/*Posicion*/
+	height: 37px;
+	margin-top: 219px;
+
+
+	/*estilo*/
 	background: #005677;
-	height: 100px;
+
+	/*letra*/
+	font-size: 20px;
+	font-family: Times New Roman, serif;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+svg{
+	margin-left:2%;
+    padding-top: 7px;
 }
 
